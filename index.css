@@ -1,0 +1,29 @@
+
+
+#botonesbox {
+    display: grid;
+     grid-template-columns:  repeat(4,75px);
+     gap: 2px;
+     justify-content: center;
+     margin-top: 30px;
+}
+
+#resultado2 {
+    display: grid;
+    grid-column: 1/5;
+    grid-row: 1;
+    border:2px solid blue;
+    min-height: 30px;
+}
+#resultado {
+    display: grid;
+    grid-column: 1/5;
+    grid-row: 2;
+    border:2px solid blue;
+    min-height: 30px;
+}
+
+.btn-primary {
+    border-radius: 100px;
+}
+
