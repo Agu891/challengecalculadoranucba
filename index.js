@@ -53,10 +53,10 @@ function operadorinput () {
 
 function igual (){
     num2 = parseFloat(resultado.textContent)
-    suma = num1 + num2
-    resta = num1 - num2
-    multiplicacion = num1 * num2
-    division = num1 / num2 
+   let suma = num1 + num2
+    let resta = num1 - num2
+    let multiplicacion = num1 * num2
+     let division = num1 / num2 
     for( let i = 0; i< resultado2.textContent.length; i++)
      if(resultado2.textContent[i] === "+"){
         resultado2.textContent= num1.toString() + "+" + num2.toString()
