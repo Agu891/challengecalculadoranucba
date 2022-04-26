@@ -15,6 +15,7 @@
     padding-left: 5px;
     padding-right: 5px;
     margin-top: 10vh;
+    min-width: 350px;
 }
 #botonesbox {
     display: grid;
