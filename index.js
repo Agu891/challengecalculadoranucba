@@ -10,7 +10,7 @@ for(var i = 0; i < numeros.length; i++)
 numeros[i].addEventListener("click" , (event)=>{
     let numeroFinal = event.target.value
     resultado.textContent = resultado.textContent + numeroFinal
-   resultado2.textContent = resultado2.textContent + numeroFinal
+  
 })
 
 
@@ -22,52 +22,53 @@ operadores[i].addEventListener("click", (event) =>{
   
 })
 
-// function igual(){
+ function igual(){  
     
-//     resultado.textContent = eval(resultado.textContent)
-// }
-
- function operadorinput () {
-     num1 = parseFloat(resultado.textContent)  
-     for( let i = 0; i< resultado.textContent.length; i++)
-   if(resultado.textContent[i] === "+"){
-      resultado2.textContent = ""
-      resultado.textContent= num1.toString() + "+"    
-   } else if (resultado.textContent[i] === "-"){  
-     resultado2.textContent = ""
-     resultado.textContent= num1.toString() + "-"
- } else if (resultado.textContent[i] === "*"){  
-     resultado2.textContent  = ""
-     resultado.textContent= num1.toString() + "*"
- } else if (resultado.textContent[i] === "/"){  
-     resultado2.textContent = ""
-     resultado.textContent= num1.toString() + "/"
- } 
+    
+     resultado.textContent = eval(resultado.textContent)
  }
+
+//  function operadorinput () {
+//      num1 = parseFloat(resultado.textContent)  
+//      for( let i = 0; i< resultado.textContent.length; i++)
+//    if(resultado.textContent[i] === "+"){
+//       resultado2.textContent = ""
+//       resultado.textContent= num1.toString() + "+"    
+//    } else if (resultado.textContent[i] === "-"){  
+//      resultado2.textContent = ""
+//      resultado.textContent= num1.toString() + "-"
+//  } else if (resultado.textContent[i] === "*"){  
+//      resultado2.textContent  = ""
+//      resultado.textContent= num1.toString() + "*"
+//  } else if (resultado.textContent[i] === "/"){  
+//      resultado2.textContent = ""
+//      resultado.textContent= num1.toString() + "/"
+//  } 
+//  }
   
 
 
 
- function igual (){
-     num2 = parseFloat(resultado2.textContent)
-    let suma = num1 + num2
-     let resta = num1 - num2
-     let multiplicacion = num1 * num2
-      let division = num1 / num2 
-     for( let i = 0; i< resultado.textContent.length; i++)
-      if(resultado.textContent[i] === "+"){
+//  function igual (){
+//      num2 = parseFloat(resultado2.textContent)
+//     let suma = num1 + num2
+//      let resta = num1 - num2
+//      let multiplicacion = num1 * num2
+//       let division = num1 / num2 
+//      for( let i = 0; i< resultado.textContent.length; i++)
+//       if(resultado.textContent[i] === "+"){
         
-      return resultado.textContent = suma
-     } else if (resultado.textContent[i] === "-"){
+//       return resultado.textContent = suma
+//      } else if (resultado.textContent[i] === "-"){
        
-         return resultado.textContent = resta 
-     } else if (resultado.textContent[i] === "*"){
+//          return resultado.textContent = resta 
+//      } else if (resultado.textContent[i] === "*"){
          
-         return resultado.textContent = multiplicacion
-     }else if (resultado.textContent[i] === "/"){
-             return resultado.textContent = division 
-         }  
- }
+//          return resultado.textContent = multiplicacion
+//      }else if (resultado.textContent[i] === "/"){
+//              return resultado.textContent = division 
+//          }  
+//  }
 
 
     
