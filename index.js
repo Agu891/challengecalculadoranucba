@@ -23,9 +23,12 @@ operadores[i].addEventListener("click", (event) =>{
 })
 
  function igual(){  
-    
-    
-     resultado.textContent = eval(resultado.textContent)
+    for( let i = 0 ; i< resultado.textContent.length ; i++)
+    if(resultado.textContent[resultado.textContent.length -1] === "+" || resultado.textContent[resultado.textContent.length -1] === "-" || resultado.textContent[resultado.textContent.length -1] === "*" || resultado.textContent[resultado.textContent.length -1] === "/"){
+        return resultado.textContent = "Entrada incorrecta"
+    }else
+     resultado2.textContent = resultado.textContent
+    return resultado.textContent = eval(resultado.textContent)
  }
 
 //  function operadorinput () {
