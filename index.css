@@ -57,6 +57,7 @@
     margin: 0px 10px 0px ;
     justify-content: flex-end;
     color: blue;
+    border-radius: 5px;
 }
 #resultado {
     display: flex;
@@ -72,6 +73,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 2rem;
+    border-radius: 5px;
 }
 
 .btn-primary {
